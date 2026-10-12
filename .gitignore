@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local datasets
+data/*.csv
+!data/README.md
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
